@@ -67,3 +67,36 @@ console.log(arr instanceof Array); // true
 let first: string = "Hello";
 let second: string = "World";
 console.log(first + " " + second); // "Hello World"
+
+// sample.ts
+
+// Arithmetic Operators
+
+
+console.log("Addition:", a + b);        // 15
+console.log("Subtraction:", a - b);     // 5
+console.log("Multiplication:", a * b);  // 50
+console.log("Division:", a / b);        // 2
+console.log("Modulus:", a % b);         // 0
+
+// Comparison Operators
+console.log("Is a greater than b?", a > b);   // true
+console.log("Is a equal to b?", a === b);     // false
+console.log("Is a not equal to b?", a !== b); // true
+
+// Logical Operators
+
+
+console.log("Logical AND:", x && y);  // false
+console.log("Logical OR:", x || y);   // true
+console.log("Logical NOT:", !x);      // false
+
+// Assignment Operators
+
+num += 5;  // num = num + 5
+console.log("After += :", num);  // 25
+
+num *= 2;  // num = num * 2
+console.log("After *= :", num);  // 50
+
+
