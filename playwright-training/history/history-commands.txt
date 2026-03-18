@@ -1,0 +1,48 @@
+History - 18th March
+=====================
+
+Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\saisankardash\AppData\Local\Programs\Microsoft VS Code\ce099c1ed2\resources\app\out\vs\workb... 
+   2 cd playwright-training
+   3 npx playwright test tests/3-browserAction/broswerActionBharath.spec.ts -- debug
+   4 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts
+   5 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts-- debug
+   6 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts
+   7 clear
+   8 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --headed
+   9 clear
+  10 PWDEBUG=1 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts
+  11 clear
+  12 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --headed
+  13 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --debug
+  14 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --debug
+  15 cllear
+  16 clear
+  17 npx playwright test tests/3-browserAction/browser-actionsSai.spec.ts --debug
+  18 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --debug
+  19 npx playwright test tests/3-browserAction/broswerActionSai.spec.ts --debug
+  20 npx playwright show-report
+  21 clear
+  22 git status
+  23 git add .
+  24 git commit -m "Browser action"
+  25 git push origin master
+  26 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --debug
+  27 npx playwright show-report
+  28 clear
+  29 npx playwright test tests/3-browserAction/browser-actionsExperiment.spec.ts --debug
+  30  npx playwright show-report
+  31 npx playwright test tests/3-browserAction/browser-actionsExperiment.spec.ts --debug
+  32 npx playwright test tests/3-browserAction/browser-actionsExperiment.spec.ts
+  33  npx playwright show-report
+  34 clear
+  35 git status
+  36 git add .
+  37 git commit "Added Experiment file"
+  38 git commit -m "Added Experiment file"
+  39 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --trace=on
+  40  npx playwright show-report
+  41 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --trace = pn
+  42 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --trace = on
+  43 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts --trace=on
