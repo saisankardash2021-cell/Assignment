@@ -1,9 +1,5 @@
 History - 18th March
 =====================
-
-Id CommandLine
-  -- -----------
-   1 try { . "c:\Users\saisankardash\AppData\Local\Programs\Microsoft VS Code\ce099c1ed2\resources\app\out\vs\workb... 
    2 cd playwright-training
    3 npx playwright test tests/3-browserAction/broswerActionBharath.spec.ts -- debug
    4 npx playwright test tests/3-browserAction/browser-actionsBharath.spec.ts

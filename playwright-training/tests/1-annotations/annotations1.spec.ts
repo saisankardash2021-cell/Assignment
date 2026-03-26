@@ -40,7 +40,7 @@ test.describe("Group 3 - Tests",async()=>{
 
 test.describe("Group 4 - Tests",async()=>{
 //test refers individual test case for grpup 3
-    test("Group 4 - Testcase 1",{tag:'@smoke'},async()=>{
+    test("Group 4 - Testcase 1",{tag:['@smoke', '@regression']},async()=>{
         {
             //test.setTimeout(90000);
             console.log("Group 4 - Testcase 1 is executing");

@@ -1,0 +1,22 @@
+npx playwright test
+npx playwright test --headed
+npx playwright test --browser=chromium
+npx playwright test --browser=firefox
+npx playwright test --browser=webkit
+npx playwright test tests/example.spec.ts
+npx playwright test -g "should login successfully"
+npx playwright test --debug
+npx playwright test --repeat-each=3
+npx playwright test --project=MobileSafari
+
+*********************************************************
+
+Mode/Browser	Command Example
+Headless Chromium	npx playwright test --browser=chromium
+Headed Chromium	npx playwright test --browser=chromium --headed
+Headless Firefox	npx playwright test --browser=firefox
+Headed Firefox	npx playwright test --browser=firefox --headed
+Headless WebKit	npx playwright test --browser=webkit
+Headed WebKit	npx playwright test --browser=webkit --headed
+Debug Chromium	npx playwright test --browser=chromium --debug
+Slow-mo Firefox	npx playwright test --browser=firefox --slow-mo 500
